@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/jitendra-housing/DesignKitPOC#'
   s.license          = { :type => 'MIT' }
   s.author           = { 'You' => 'jitendra.lakhmani1@housing.com' }
-  s.source           = { :path => '.' }
+  s.source           = { :git => 'https://github.com/jitendra-housing/DesignKitPOC.git' }
 
   s.ios.deployment_target = '13.0'
   s.source_files     = 'DesignKitPOC/DesignKitPOC/SpacingDesignKitDesignables/Sources/**/*.{swift}'
