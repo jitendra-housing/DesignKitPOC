@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
   s.source_files = 'DesignKitPOC/DesignKitPOC/SpacingDesignKit/Sources/**/*.{swift}'
-  s.static_framework = true
+  s.static_framework = false
 end
