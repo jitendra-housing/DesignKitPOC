@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/jitendra-housing/DesignKitPOC.git' }
 
   s.ios.deployment_target = '13.0'
-  s.source_files     = 'DesignKitPOC/DesignKitPOCSpacingDesignKit/Sources/**/*.{swift}'
+  s.source_files     = 'DesignKitPOC/POCSpacingDesignKit/Sources/**/*.{swift}'
   s.static_framework = true
 end
