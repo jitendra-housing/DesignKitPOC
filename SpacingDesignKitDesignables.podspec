@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source           = { :path => '.' }
 
   s.ios.deployment_target = '13.0'
-  s.source_files     = 'SpacingDesignKitDesignables/Sources/**/*.{swift}'
+  s.source_files     = 'DesignKitPOC/DesignKitPOC/SpacingDesignKitDesignables/Sources/**/*.{swift}'
 
   s.dependency 'SpacingDesignKit'
 
