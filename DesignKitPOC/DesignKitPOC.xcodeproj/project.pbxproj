@@ -6,30 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B7E360C42E5C368400B56A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E360BA2E5C368400B56A81 /* AppDelegate.swift */; };
+		B7E360C52E5C368400B56A81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E360C12E5C368400B56A81 /* SceneDelegate.swift */; };
+		B7E360C62E5C368400B56A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E360C22E5C368400B56A81 /* ViewController.swift */; };
+		B7E360C72E5C368400B56A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E360BB2E5C368400B56A81 /* Assets.xcassets */; };
+		B7E360C92E5C368400B56A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E360BE2E5C368400B56A81 /* LaunchScreen.storyboard */; };
+		B7E360CA2E5C368400B56A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E360C02E5C368400B56A81 /* Main.storyboard */; };
+		B7E360CE2E5C36CF00B56A81 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E360CD2E5C36CB00B56A81 /* Spacing.swift */; };
+		B7E360D02E5C36EB00B56A81 /* SpacingDesignKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B7E360CF2E5C36E000B56A81 /* SpacingDesignKit.podspec */; };
+		B7E360D42E5C372A00B56A81 /* DesignSpacingConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E360D32E5C371800B56A81 /* DesignSpacingConstraints.swift */; };
+		B7E360D62E5C374100B56A81 /* SpacingDesignKitDesignables.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B7E360D52E5C372F00B56A81 /* SpacingDesignKitDesignables.podspec */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B7E360A22E5C35A400B56A81 /* DesignKitPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignKitPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E360BA2E5C368400B56A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7E360BB2E5C368400B56A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E360BC2E5C368400B56A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E360BD2E5C368400B56A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7E360BF2E5C368400B56A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7E360C12E5C368400B56A81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7E360C22E5C368400B56A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7E360CD2E5C36CB00B56A81 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		B7E360CF2E5C36E000B56A81 /* SpacingDesignKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SpacingDesignKit.podspec; sourceTree = "<group>"; };
+		B7E360D32E5C371800B56A81 /* DesignSpacingConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSpacingConstraints.swift; sourceTree = "<group>"; };
+		B7E360D52E5C372F00B56A81 /* SpacingDesignKitDesignables.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SpacingDesignKitDesignables.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B7E360B42E5C35A600B56A81 /* Exceptions for "DesignKitPOC" folder in "DesignKitPOC" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = B7E360A12E5C35A400B56A81 /* DesignKitPOC */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B7E360A42E5C35A400B56A81 /* DesignKitPOC */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B7E360B42E5C35A600B56A81 /* Exceptions for "DesignKitPOC" folder in "DesignKitPOC" target */,
-			);
-			path = DesignKitPOC;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B7E3609F2E5C35A400B56A81 /* Frameworks */ = {
@@ -45,7 +48,7 @@
 		B7E360992E5C35A400B56A81 = {
 			isa = PBXGroup;
 			children = (
-				B7E360A42E5C35A400B56A81 /* DesignKitPOC */,
+				B7E360C32E5C368400B56A81 /* DesignKitPOC */,
 				B7E360A32E5C35A400B56A81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +59,56 @@
 				B7E360A22E5C35A400B56A81 /* DesignKitPOC.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E360C32E5C368400B56A81 /* DesignKitPOC */ = {
+			isa = PBXGroup;
+			children = (
+				B7E360D12E5C36F800B56A81 /* SpacingDesignKitDesignables */,
+				B7E360CB2E5C368900B56A81 /* SpacingDesignKit */,
+				B7E360BA2E5C368400B56A81 /* AppDelegate.swift */,
+				B7E360BB2E5C368400B56A81 /* Assets.xcassets */,
+				B7E360BC2E5C368400B56A81 /* Info.plist */,
+				B7E360BE2E5C368400B56A81 /* LaunchScreen.storyboard */,
+				B7E360C02E5C368400B56A81 /* Main.storyboard */,
+				B7E360C12E5C368400B56A81 /* SceneDelegate.swift */,
+				B7E360C22E5C368400B56A81 /* ViewController.swift */,
+			);
+			path = DesignKitPOC;
+			sourceTree = "<group>";
+		};
+		B7E360CB2E5C368900B56A81 /* SpacingDesignKit */ = {
+			isa = PBXGroup;
+			children = (
+				B7E360CF2E5C36E000B56A81 /* SpacingDesignKit.podspec */,
+				B7E360CC2E5C36B700B56A81 /* Sources */,
+			);
+			path = SpacingDesignKit;
+			sourceTree = "<group>";
+		};
+		B7E360CC2E5C36B700B56A81 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B7E360CD2E5C36CB00B56A81 /* Spacing.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B7E360D12E5C36F800B56A81 /* SpacingDesignKitDesignables */ = {
+			isa = PBXGroup;
+			children = (
+				B7E360D52E5C372F00B56A81 /* SpacingDesignKitDesignables.podspec */,
+				B7E360D22E5C370D00B56A81 /* Sources */,
+			);
+			path = SpacingDesignKitDesignables;
+			sourceTree = "<group>";
+		};
+		B7E360D22E5C370D00B56A81 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B7E360D32E5C371800B56A81 /* DesignSpacingConstraints.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +125,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B7E360A42E5C35A400B56A81 /* DesignKitPOC */,
 			);
 			name = DesignKitPOC;
 			packageProductDependencies = (
@@ -122,6 +172,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E360C72E5C368400B56A81 /* Assets.xcassets in Resources */,
+				B7E360C92E5C368400B56A81 /* LaunchScreen.storyboard in Resources */,
+				B7E360D62E5C374100B56A81 /* SpacingDesignKitDesignables.podspec in Resources */,
+				B7E360CA2E5C368400B56A81 /* Main.storyboard in Resources */,
+				B7E360D02E5C36EB00B56A81 /* SpacingDesignKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +187,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E360C42E5C368400B56A81 /* AppDelegate.swift in Sources */,
+				B7E360CE2E5C36CF00B56A81 /* Spacing.swift in Sources */,
+				B7E360D42E5C372A00B56A81 /* DesignSpacingConstraints.swift in Sources */,
+				B7E360C52E5C368400B56A81 /* SceneDelegate.swift in Sources */,
+				B7E360C62E5C368400B56A81 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7E360BE2E5C368400B56A81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E360BD2E5C368400B56A81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E360C02E5C368400B56A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E360BF2E5C368400B56A81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B7E360B62E5C35A600B56A81 /* Debug */ = {
