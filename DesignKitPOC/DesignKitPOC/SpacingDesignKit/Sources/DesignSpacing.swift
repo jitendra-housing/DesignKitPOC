@@ -7,7 +7,7 @@
 
 import UIKit
 
-public enum Spacing: CGFloat, CaseIterable {
+public enum DesignSpacing: CGFloat, CaseIterable {
     case xs = 2
     case sm = 4
     case md = 8
