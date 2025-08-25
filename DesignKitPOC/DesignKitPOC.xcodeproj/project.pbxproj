@@ -26,6 +26,7 @@
 		B7E360C22E5C368400B56A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7E360CD2E5C36CB00B56A81 /* DesignSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSpacing.swift; sourceTree = "<group>"; };
 		B7E360D32E5C371800B56A81 /* DesignSpacingConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSpacingConstraints.swift; sourceTree = "<group>"; };
+		B7E3615B2E5C80B300B56A81 /* DesignSpacingConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSpacingConstraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		B7E360CC2E5C36B700B56A81 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B7E3615B2E5C80B300B56A81 /* DesignSpacingConstraints.swift */,
 				B7E360CD2E5C36CB00B56A81 /* DesignSpacing.swift */,
 			);
 			path = Sources;
