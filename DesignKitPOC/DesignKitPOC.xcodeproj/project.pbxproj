@@ -25,9 +25,9 @@
 		B7E360C12E5C368400B56A81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B7E360C22E5C368400B56A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7E360CD2E5C36CB00B56A81 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
-		B7E360CF2E5C36E000B56A81 /* SpacingDesignKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SpacingDesignKit.podspec; sourceTree = "<group>"; };
 		B7E360D32E5C371800B56A81 /* DesignSpacingConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSpacingConstraints.swift; sourceTree = "<group>"; };
 		B7E360D52E5C372F00B56A81 /* SpacingDesignKitDesignables.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SpacingDesignKitDesignables.podspec; sourceTree = "<group>"; };
+		B7E360FC2E5C40F000B56A81 /* SpacingDesignKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SpacingDesignKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		B7E360CB2E5C368900B56A81 /* SpacingDesignKit */ = {
 			isa = PBXGroup;
 			children = (
-				B7E360CF2E5C36E000B56A81 /* SpacingDesignKit.podspec */,
+				B7E360FC2E5C40F000B56A81 /* SpacingDesignKit.podspec */,
 				B7E360CC2E5C36B700B56A81 /* Sources */,
 			);
 			path = SpacingDesignKit;
