@@ -13,10 +13,6 @@
 		B7E360C72E5C368400B56A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E360BB2E5C368400B56A81 /* Assets.xcassets */; };
 		B7E360C92E5C368400B56A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E360BE2E5C368400B56A81 /* LaunchScreen.storyboard */; };
 		B7E360CA2E5C368400B56A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E360C02E5C368400B56A81 /* Main.storyboard */; };
-		B7E360CE2E5C36CF00B56A81 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E360CD2E5C36CB00B56A81 /* Spacing.swift */; };
-		B7E360D02E5C36EB00B56A81 /* SpacingDesignKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B7E360CF2E5C36E000B56A81 /* SpacingDesignKit.podspec */; };
-		B7E360D42E5C372A00B56A81 /* DesignSpacingConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E360D32E5C371800B56A81 /* DesignSpacingConstraints.swift */; };
-		B7E360D62E5C374100B56A81 /* SpacingDesignKitDesignables.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B7E360D52E5C372F00B56A81 /* SpacingDesignKitDesignables.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -174,9 +170,7 @@
 			files = (
 				B7E360C72E5C368400B56A81 /* Assets.xcassets in Resources */,
 				B7E360C92E5C368400B56A81 /* LaunchScreen.storyboard in Resources */,
-				B7E360D62E5C374100B56A81 /* SpacingDesignKitDesignables.podspec in Resources */,
 				B7E360CA2E5C368400B56A81 /* Main.storyboard in Resources */,
-				B7E360D02E5C36EB00B56A81 /* SpacingDesignKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,8 +182,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7E360C42E5C368400B56A81 /* AppDelegate.swift in Sources */,
-				B7E360CE2E5C36CF00B56A81 /* Spacing.swift in Sources */,
-				B7E360D42E5C372A00B56A81 /* DesignSpacingConstraints.swift in Sources */,
 				B7E360C52E5C368400B56A81 /* SceneDelegate.swift in Sources */,
 				B7E360C62E5C368400B56A81 /* ViewController.swift in Sources */,
 			);
