@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SpacingDesignKit
 
 @IBDesignable
 public class DesignSpacingConstraint: NSLayoutConstraint {
